@@ -1,0 +1,110 @@
+
+.logo{
+    position: absolute;
+    text-align: right;
+    color: #000;
+    font-size: 30px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 1px;
+  }
+.nav {
+  width: 100%;
+  background-color: rgb(181, 230, 90);
+  overflow: auto;
+  margin-bottom: 25px;
+}
+
+.nav a {
+  float: right;
+  padding: 12px;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  font-size: 17px;
+  
+}
+
+.nav a:hover {
+  background-color: rgb(29, 87, 48);
+}
+
+.active {
+  background-color: rgb(0, 233, 78);
+}
+img{
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 50%;
+    
+}
+.benefits ol li {
+    margin-left: 25%;
+    font-weight: bold;
+    font-size: 16px;
+}
+.benefits p{
+    margin-left: 25%;
+}
+.teamake ul li {
+margin-left: 25%;
+}
+h3{
+    margin-left: 25%;
+}
+.teamake ol li {
+    margin-left: 25%;
+    margin-top: 10px;
+    }
+.footer{
+          
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        text-align: center;
+        border-top: 5px solid black;
+      }
+.single{
+        width: 33%;
+        float: left;
+        text-align: left;
+        color: rgb(2, 2, 43);
+        font-size: 20px;
+      }
+.single ul{
+        margin: 0;
+        padding: 0;
+        list-style: none;
+      }
+.single ul a{
+        text-transform: uppercase;
+        text-decoration: none;
+        font-size: 12px;
+        color:  rgb(2, 2, 43);
+        
+      }
+@media screen and (max-width:600px) {
+    .footer{
+            max-width: 600px;
+          }
+    .single{
+            width: 100%;
+            margin-bottom: 60px;
+          }
+        
+    .single{
+            width: 100%;
+            text-align: center;
+          }
+        }
+
+@media screen and (max-width: 750px) {
+    .nav a {
+      float: none;
+      display: block;
+    }
+    #fst{
+        margin-top: 25px;
+    }
+  }
