@@ -1,0 +1,56 @@
+body {
+	margin: 10px;
+	padding: 0;
+	font: 1em "Trebuchet MS", verdana, arial, sans-serif;
+	font-size: 100%;
+}
+h1 {
+	margin-bottom: 2px;
+	font-family: Garamond, "Times New Roman", Times, Serif;
+  color: #000000;
+  text-align: center;
+}
+#miniHeader{
+  color: #000000;
+  text-align: center;
+}
+div.container {
+	margin: auto;
+	width: 90%;
+	margin-bottom: 10px;
+}
+textarea {
+	width: 80%;
+}
+fieldset{
+	border: 1px solid #ccc;
+	padding: 1em;
+	margin: 0;
+}
+legend {
+	color: #000000;
+	font-size: 120%;
+}
+input, textarea {
+	font-family: Arial, verdana;
+	font-size: 125%;
+	padding: 7px;
+	border: 1px solid #999;
+}
+#lb {
+	display: block;
+	margin-top: 10px;
+}
+
+div.tabs > div {
+	padding: 5px;
+	margin-top: 3px;
+	border: 5px solid #333;
+}
+div.tabs > div h2 {
+	margin-top: 0;
+}
+#first {
+	color: #000000;
+}
+

@@ -6,7 +6,7 @@
     <link rel="shortcut icon" href="Img/tea-gallery.jpg">
         <link rel="stylesheet" href="CSS/Nav bar and footer.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
-        <link rel="stylesheet" href="CSS/buynw.css">
+        <link rel="stylesheet" href="CSS/buy-now.css">
         <title>Tea Gallery</title>
 </head>
 <body>
@@ -26,7 +26,155 @@
         
         </label>
     </header>
-     
+    <body >
+      <div id="page">
+      <h1>Online Order</h1>
+      <p id="miniHeader">Order your favourit Tea</p>
+      
+  
+      <br>
+      <br>
+      <div id="cusdtl">
+      <fieldset>
+          <form method="get">
+          <legend>Customer Details</legend>
+          <p>
+            <label id="lb" for="name">Name:</label>
+            <input type="text" id="name">
+          </p>
+          <p>
+            <label id="lb" for="number">Phone Number:</label>
+            <input type="text" id="phnm">
+          </p>
+          <label id="lb" for="mail">Email:</label>
+            <input type="text" id="mail">
+          </form>
+        </fieldset>
+        
+      </div>
+
+          <div id="first" class="divTab">
+          <form id="order">
+          
+          <fieldset>
+              <legend>Tea Manufacturer</legend>
+          <table>
+              <tr>
+              <td>Dilma</td>
+              
+              <td><input type="radio" id="Dilma" name="size" value="1000"/></td>
+                  </tr>
+          <tr>
+              <td>Jones</td> 
+              
+              <td><input type="radio" id="Jones" name="size" value="1500"/></td>
+              </tr>
+          
+          <tr>
+              <td>George Steuart</td>
+              
+              <td><input type="radio" id="Grg" name="size" value="1000"/></td>
+              </tr>
+          <tr>
+                  <td>Malwatte Valley Plantation</td>
+                  
+                  <td><input type="radio" id="mal" name="size" value="2000"/></td>
+              </tr>
+          <tr>
+                      <td>Prestige Ceylon Teas</td>
+                      
+                      <td><input type="radio" id="pres" name="size" value="1000"/></td>
+              </tr>
+              <tr>
+                  <td>Empire Teas</td>
+                  
+                  <td><input type="radio" id="emp" name="size" value="2000"/></td>
+                  </tr>
+          </table>
+              </fieldset>
+          <br>
+          <br>
+          <fieldset>
+          <legend>Package Type</legend>
+          <table>
+              <tr>
+              <td>Paper Pouch</td>
+              <td><input type="radio" id="ppr" name="pck" value="1000"/></td>
+                  </tr>
+          <tr>
+              <td>Tins</td> 
+              <td><input type="radio" id="tin" name="pck" value="5000" checked/></td>
+              </tr>
+          
+          <tr>
+              <td>Bags</td>
+              <td><input type="radio" id="bag" name="pck" value="2500"/></td>
+              </tr>
+          </table>
+          </fieldset>
+
+          
+          <br>
+          <br>
+          
+          <fieldset>
+          <legend>Pack Size</legend>
+          <table>
+              <tr>
+              <td>Small</td>
+              <td><input type="checkbox" id="sml" class="sz" name="si" value="1000"/></td>
+                  </tr>
+          <tr>
+              <td>Medium</td> 
+              <td><input type="checkbox" id="mid" class="sz" name="si" value="2500" checked/></td>
+              </tr>
+          
+          <tr>
+              <td>Large</td>
+              <td><input type="checkbox" id="lrg" class="sz" name="si" value="5000"/></td>
+              </tr>
+          
+          </table>
+          </fieldset>
+          
+          
+          <br>
+          <br>
+          
+          <fieldset>
+          <legend>Extras</legend>
+          <table>
+              <tr>
+              <td>Mug</td>
+              <td><input type="checkbox" id="mug" class="ext" name="ex" value="500"/></td>
+                  </tr>
+          <tr>
+              <td>Silver Pin</td> 
+              <td><input type="checkbox" id="silver" class="ext" name="ex" value="1000"/></td>
+              </tr>
+          
+          <tr>
+              <td>Wooden Souvenir</td>
+              <td><input type="checkbox" id="wood" class="ext" name="ex" value="1500"/></td>
+              </tr>
+          </table>
+          </fieldset>
+            <input type="submit" value="Add"/>
+                    <p id="output"></p>
+              <input type="submit" value="Place Order"/>
+                    <p id="output"></p>
+                  <fieldset><legend>Customer Details</legend>
+                      <p id="cusname"></p>
+                      <p id="cusphnm"></p>
+                      <p id="cusmail"></p>
+                  </fieldset> 
+                  <fieldset><legend>Order Details</legend>
+                      <p id="ordcst"></p>
+                  </fieldset> 
+          </form>
+          </div>
+        </div>
+        <script src="js/buy-now.js"></script>
 </body>
 <footer>
     <div class="footer-main">
